@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>2D Breakout Game - JavScript</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Germania+One">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+</head>
+
+<body>
+
+    <div class="sound">
+        <img src="img/SOUND_ON.png" alt="" id="sound">
+    </div>
+
+    <div id="gameover">
+        <img src="img/youwon.png" alt="" id="youwon">
+        <img src="img/gameover.png" alt="" id="youlose">
+        <div id="restart">Play Again!</div>
+    </div>
+    <div id="main">
+        <img id="logo" src="./img/LOGOFINAL.png" alt="asd">
+        <i class="far fa-play-circle" id="playBtn"></i>
+        <h3 id="play"> Play</h3>
+        <!-- <img id="high" src="./img/trophy1.png" alt="SCORES"> -->
+    </div>
+
+    <canvas id="breakout" width="400" height="500"></canvas>
+
+    <script src="link.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

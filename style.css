@@ -1,0 +1,113 @@
+ * {
+     font-family: "Germania One";
+ }
+ 
+ #sound {
+     width: 30px;
+     height: 30px;
+     cursor: pointer;
+     position: absolute;
+     top: 465px;
+     left: 15px;
+ }
+ 
+ #gameover {
+     position: absolute;
+     width: 400px;
+     height: 500px;
+     background: rgba(207, 85, 3, 0.959);
+     display: none;
+ }
+ 
+ #youwon {
+     width: 100px;
+     position: absolute;
+     top: 200px;
+     left: 150px;
+     display: none;
+ }
+ 
+ #mainimg {
+     width: 400px;
+     height: 500px;
+     position: absolute;
+     top: 9px;
+     left: 9px;
+     display: block;
+     /* background-color: rgb(85, 84, 84);
+     opacity: 0.1; */
+ }
+ /* #high {
+     width: 80px;
+     height: 80px;
+     position: absolute;
+     top: 400px;
+     left: 9px;
+     display: block;
+ }
+  */
+ 
+ #play {
+     position: absolute;
+     top: 230px;
+     left: 185px;
+     margin-top: 20px;
+     font-size: 44px;
+     /* border: 1px solid rgb(212, 74, 74);
+     border-radius: 50%;
+     padding: 15px;
+     background-color: rgb(212, 74, 74); */
+ }
+ 
+ #playBtn {
+     position: absolute;
+     top: 230px;
+     left: 130px;
+     margin-top: 20px;
+     font-size: 44px;
+     font-size: 50px;
+     color: rgb(212, 74, 74);
+ }
+ 
+ #logo {
+     position: absolute;
+     top: 50px;
+     left: 10px;
+ }
+ 
+ #play:hover {
+     cursor: pointer;
+ }
+ 
+ #youlose {
+     width: 400px;
+     position: absolute;
+     top: 100px;
+     left: 0px;
+     display: none;
+ }
+ 
+ #restart {
+     position: absolute;
+     top: 310px;
+     left: 155px;
+     cursor: pointer;
+     font-size: 1.25em;
+     color: #FFF;
+ }
+ 
+ #container {
+     position: absolute;
+     top: 440px;
+     left: 150px;
+     margin-top: 20px;
+ }
+ 
+ #color {
+     display: flex;
+ }
+ 
+ #color div {
+     padding: 15px;
+     cursor: pointer;
+ }
